@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Stopwatch & Speech Transcription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Enhanced Stopwatch & Speech Transcription</h1>
+    <div class="buttons">
+        <button id="startButton">Start</button>
+        <button id="stopButton" disabled>Stop</button>
+        <button id="resetButton" disabled>Reset</button>
+        <button id="saveButton" disabled>Save Transcription</button>
+        <button id="exportButton" disabled>Export as Text File</button>
+    </div>
+    <div id="stopwatch">00:00:00</div>
+    <div id="transcription">Speak now, and your words will appear here...</div>
+    <p id="statusMessage"></p>
+    <select id="languageSelector">
+        <option value="en-US">English (US)</option>
+        <option value="en-GB">English (UK)</option>
+        <option value="es-ES">Spanish (Spain)</option>
+        <option value="fr-FR">French (France)</option>
+        <option value="de-DE">German</option>
+    </select>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

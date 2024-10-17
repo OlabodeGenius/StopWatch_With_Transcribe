@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #3e8e41;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#startButton {
+    background-color: #28a745;
+}
+
+#stopButton {
+    background-color: #dc3545;
+}
+
+#resetButton {
+    background-color: #ffc107;
+}
+
+#saveButton {
+    background-color: #17a2b8;
+}
+
+#exportButton {
+    background-color: #6f42c1;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#stopwatch {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+#transcription {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    height: 100px;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+#statusMessage {
+    margin-top: 15px;
+    font-style: italic;
+    color: #6c757d;
+}
+
+#languageSelector {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+}
